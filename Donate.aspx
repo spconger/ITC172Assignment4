@@ -12,8 +12,8 @@
         <h1>Donate</h1>
         <p>How much do you want to donate.</p>
         <p>
-            $<asp:TextBox ID="DonationTextBox" runat="server" TextMode="Number"></asp:TextBox></p>
-        <asp:Button ID="DonateButton1" runat="server" Text="Donate" />
+            $<asp:TextBox ID="DonationTextBox" runat="server" ></asp:TextBox></p>
+        <asp:Button ID="DonateButton1" runat="server" Text="Donate" OnClick="DonateButton1_Click" />
         <p>
             <asp:Label ID="ErrorLabel" runat="server" Text=""></asp:Label></p>
     </div>

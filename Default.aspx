@@ -25,14 +25,21 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="LoginButton" runat="server" Text="Login" />
+                    <asp:Button ID="LoginButton" runat="server" Text="Login" OnClick="LoginButton_Click" />
                 </td>
                 <td>
                     <asp:Label ID="ErrorLabel" runat="server" Text=""></asp:Label>
+                    
                 </td>
             </tr>
         </table>
-    
+        <!--add a link button so that the can register if they can't login.
+            a plain hyperlink would work as well-->
+        
+    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Register.aspx">Register</asp:LinkButton><br />
+    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Donate.aspx">Donate
+
+    </asp:LinkButton>
     </div>
     </form>
 </body>

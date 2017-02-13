@@ -109,13 +109,14 @@
         </tr>
         <tr>
             <td>
-                <asp:Button ID="SubmitButton" runat="server" Text="Submit" /></td>
+                <asp:Button ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" /></td>
             <td>
                 <asp:Label ID="ResultLabel" runat="server" Text=""></asp:Label></td>
             <td>&nbsp;</td>
         </tr>
        
     </table>
+       
     </div>
     </form>
 </body>

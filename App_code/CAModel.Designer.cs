@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Steve\Documents\Visual Studio 2015\WebSites\Assignment4\App_Code\CAModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\steve_conger\Documents\GitHub\ITC172Assignment4\App_code\CAModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
